@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		34DD7C751F8C2ACB002759B7 /* SQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34DD7C821F8C2AE3002759B7 /* ActionsSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */; };
+		34DD7C831F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */; };
+		34DD7C841F8C2AE3002759B7 /* ActionsSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */; };
+		34DD7C851F8C2AE3002759B7 /* ActionsSheetCancelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */; };
+		34DD7C861F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */; };
+		34DD7C871F8C2AE3002759B7 /* ActionsSheetTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		34DD7C701F8C2ACB002759B7 /* SQActionSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQActionSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQActionSheet.h; sourceTree = "<group>"; };
 		34DD7C741F8C2ACB002759B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetCell.swift; sourceTree = "<group>"; };
+		34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetDefaultCell.swift; sourceTree = "<group>"; };
+		34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetViewController.swift; sourceTree = "<group>"; };
+		34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetCancelCell.swift; sourceTree = "<group>"; };
+		34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetDestructiveCell.swift; sourceTree = "<group>"; };
+		34DD7C801F8C2AE3002759B7 /* ActionsSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActionsSheet.storyboard; sourceTree = "<group>"; };
+		34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetTitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +59,13 @@
 		34DD7C721F8C2ACB002759B7 /* SQActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				34DD7C801F8C2AE3002759B7 /* ActionsSheet.storyboard */,
+				34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */,
+				34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */,
+				34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */,
+				34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */,
+				34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */,
+				34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */,
 				34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */,
 				34DD7C741F8C2ACB002759B7 /* Info.plist */,
 			);
@@ -95,6 +115,7 @@
 				TargetAttributes = {
 					34DD7C6F1F8C2ACB002759B7 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34DD7C821F8C2AE3002759B7 /* ActionsSheetCell.swift in Sources */,
+				34DD7C861F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift in Sources */,
+				34DD7C871F8C2AE3002759B7 /* ActionsSheetTitleCell.swift in Sources */,
+				34DD7C831F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift in Sources */,
+				34DD7C841F8C2AE3002759B7 /* ActionsSheetViewController.swift in Sources */,
+				34DD7C851F8C2AE3002759B7 /* ActionsSheetCancelCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +280,7 @@
 		34DD7C791F8C2ACB002759B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -262,10 +290,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SQActionSheet/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaneqi.SQActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +304,7 @@
 		34DD7C7A1F8C2ACB002759B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -283,6 +314,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SQActionSheet/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shaneqi.SQActionSheet;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
