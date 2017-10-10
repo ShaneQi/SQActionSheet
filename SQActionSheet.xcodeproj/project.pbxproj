@@ -7,26 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34497F971F8D0D9A00DA2F45 /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34497F961F8D0D9A00DA2F45 /* Identifiable.swift */; };
 		34DD7C751F8C2ACB002759B7 /* SQActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34DD7C821F8C2AE3002759B7 /* ActionsSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */; };
-		34DD7C831F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */; };
 		34DD7C841F8C2AE3002759B7 /* ActionsSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */; };
-		34DD7C851F8C2AE3002759B7 /* ActionsSheetCancelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */; };
-		34DD7C861F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */; };
-		34DD7C871F8C2AE3002759B7 /* ActionsSheetTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */; };
+		34DD7C851F8C2AE3002759B7 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DD7C7E1F8C2AE3002759B7 /* Cells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34497F961F8D0D9A00DA2F45 /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
 		34DD7C701F8C2ACB002759B7 /* SQActionSheet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQActionSheet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQActionSheet.h; sourceTree = "<group>"; };
 		34DD7C741F8C2ACB002759B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetCell.swift; sourceTree = "<group>"; };
-		34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetDefaultCell.swift; sourceTree = "<group>"; };
 		34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetViewController.swift; sourceTree = "<group>"; };
-		34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetCancelCell.swift; sourceTree = "<group>"; };
-		34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetDestructiveCell.swift; sourceTree = "<group>"; };
+		34DD7C7E1F8C2AE3002759B7 /* Cells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
 		34DD7C801F8C2AE3002759B7 /* ActionsSheet.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActionsSheet.storyboard; sourceTree = "<group>"; };
-		34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsSheetTitleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +53,10 @@
 		34DD7C721F8C2ACB002759B7 /* SQActionSheet */ = {
 			isa = PBXGroup;
 			children = (
-				34DD7C801F8C2AE3002759B7 /* ActionsSheet.storyboard */,
-				34DD7C7E1F8C2AE3002759B7 /* ActionsSheetCancelCell.swift */,
-				34DD7C7B1F8C2AE2002759B7 /* ActionsSheetCell.swift */,
-				34DD7C7C1F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift */,
-				34DD7C7F1F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift */,
-				34DD7C811F8C2AE3002759B7 /* ActionsSheetTitleCell.swift */,
+				34DD7C7E1F8C2AE3002759B7 /* Cells.swift */,
+				34497F961F8D0D9A00DA2F45 /* Identifiable.swift */,
 				34DD7C7D1F8C2AE3002759B7 /* ActionsSheetViewController.swift */,
+				34DD7C801F8C2AE3002759B7 /* ActionsSheet.storyboard */,
 				34DD7C731F8C2ACB002759B7 /* SQActionSheet.h */,
 				34DD7C741F8C2ACB002759B7 /* Info.plist */,
 			);
@@ -152,12 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34DD7C821F8C2AE3002759B7 /* ActionsSheetCell.swift in Sources */,
-				34DD7C861F8C2AE3002759B7 /* ActionsSheetDestructiveCell.swift in Sources */,
-				34DD7C871F8C2AE3002759B7 /* ActionsSheetTitleCell.swift in Sources */,
-				34DD7C831F8C2AE3002759B7 /* ActionsSheetDefaultCell.swift in Sources */,
 				34DD7C841F8C2AE3002759B7 /* ActionsSheetViewController.swift in Sources */,
-				34DD7C851F8C2AE3002759B7 /* ActionsSheetCancelCell.swift in Sources */,
+				34497F971F8D0D9A00DA2F45 /* Identifiable.swift in Sources */,
+				34DD7C851F8C2AE3002759B7 /* Cells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
